@@ -1,0 +1,16 @@
+.title {
+  font-size: xx-large;
+  font-weight: 600;
+  color: #ffffff;
+}
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  /* width: 100px; */
+  background-color: #0a1a3a; /* Dark blue */
+  color: #ffffff; /* White text */
+  border-bottom: 1px solid #d2dbe6; /* Light blue border */
+}

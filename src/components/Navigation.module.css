@@ -1,0 +1,17 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* background-color: #f0f0f0; */
+  width: 20%;
+  align-self: flex-end;
+}
+.nav-button {
+  background-color: #0a1a3a; /* Dark blue */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+}

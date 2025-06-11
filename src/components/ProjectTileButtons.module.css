@@ -1,0 +1,15 @@
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 100%;
+}
+.tile-button {
+  background-color: #0a1a3a;
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+}

@@ -1,0 +1,41 @@
+.project-title {
+  font-weight: bold;
+  color: #333;
+  margin: 5px;
+  text-align: center;
+}
+
+.tile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 30%;
+  height: 500px;
+  min-width: 300px;
+  min-height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: rgb(232, 238, 243);
+}
+
+.tile-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.tile-container p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin: 5px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto; /* Push buttons to the bottom */
+}
