@@ -5,10 +5,18 @@
   /* justify-content: center; */
   padding: 20px;
   width: 40%;
-  color: antiquewhite;
+  /* color: antiquewhite; */
+  color: lightgray;
+
   align-items: flex-start;
   text-align: left;
   font-size: 18px;
   /* flex: 1; */
   /* margin: auto; */
+}
+@media (max-width: 768px) {
+  .about-container {
+    width: 90%;
+    align-items: center;
+  }
 }
