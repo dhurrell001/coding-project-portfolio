@@ -16,18 +16,18 @@ export default function AboutMe() {
         of achieving at least one new qualification each year, often just for
         the joy of learning something new.
       </p>
-      <p>
-        I’ve explored a variety of technologies including:
-        <ul>
-          <li>JavaScript (entry-level certified)</li>
-          <li>Python (entry-level certified)</li>
-          <li>React (Web & Native)</li>
-          <li>Express.js</li>
-          <li>Django</li>
-          <li>C# with WPF</li>
-          <li>SQL (basic queries and schema understanding)</li>
-        </ul>
-      </p>
+      <p>I’ve explored a variety of technologies including:</p>
+
+      <ul>
+        <li>JavaScript (entry-level certified)</li>
+        <li>Python (entry-level certified)</li>
+        <li>React (Web & Native)</li>
+        <li>Express.js</li>
+        <li>Django</li>
+        <li>C# with WPF</li>
+        <li>SQL (basic queries and schema understanding)</li>
+      </ul>
+
       <p>
         One of my proudest achievements was getting a simple plaster calculator
         app published to the Apple App Store — a small but meaningful milestone

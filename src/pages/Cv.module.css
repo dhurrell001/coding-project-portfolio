@@ -1,0 +1,38 @@
+.cv-page {
+  display: flex;
+  background: linear-gradient(
+    to bottom,
+    #0a1a3a,
+    #4f8fe5
+  ); /* dark to light blue */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  flex: 1;
+}
+.cv-container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  /* max-width: 1200px; Limit the width of the CV container */
+  padding-top: 30px;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: stretch; */
+  justify-content: space-evenly;
+  width: 100%;
+  /* max-width: 1200px;  */
+}
+@media (max-width: 768px) {
+  .cv-container,
+  .sub-container {
+    flex-direction: column;
+  }
+  /* align-items: center; */
+}

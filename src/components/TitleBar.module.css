@@ -14,3 +14,9 @@
   color: #ffffff; /* White text */
   border-bottom: 1px solid #d2dbe6; /* Light blue border */
 }
+@media (max-width: 768px) {
+  .title-bar {
+    flex-direction: column;
+  }
+  /* align-items: center; */
+}
