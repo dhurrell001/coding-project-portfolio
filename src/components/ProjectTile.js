@@ -9,6 +9,7 @@ export default function ProjectTile({
   stack,
   image,
   repository,
+  website,
 }) {
   return (
     <div className={styles["tile-container"]}>
@@ -17,7 +18,7 @@ export default function ProjectTile({
       <p>{description}</p>
       <p>Stack: {stack}</p>
       <div className={styles["buttons-container"]}>
-        <ProjectTileButtons repository={repository} />
+        <ProjectTileButtons repository={repository} website={website} />
       </div>
     </div>
   );
