@@ -9,8 +9,10 @@ const projectData = [
     description:
       "First mobile app using React Native + Expo. Published on the App Store. Designed to help tradespeople estimate how much plaster is needed based on area, thickness, and contingency. Simple, responsive UI tailored for mobile users.",
     stack: "React Expo",
-    repository: "active",
+    repository: "https://github.com/dhurrell001/js-flashcards-mobile",
     image: calcImage,
+    website:
+      "https://apps.apple.com/us/app/plaster-calculator/id6738589483?platform=iphone",
   },
   {
     id: 2,
@@ -20,6 +22,7 @@ const projectData = [
     stack: "React",
     repository: null,
     image: cardImage,
+    website: "",
   },
   {
     id: 3,
@@ -30,6 +33,7 @@ const projectData = [
     repository: null,
 
     image: portfolioImage,
+    website: "",
   },
   {
     id: 4,
@@ -39,6 +43,7 @@ const projectData = [
     stack: "React Expo",
     repository: "active",
     image: cottageImage,
+    website: "",
   },
 ];
 
