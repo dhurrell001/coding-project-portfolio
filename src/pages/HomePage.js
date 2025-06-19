@@ -4,6 +4,8 @@ import ProjectTileLayout from "../components/ProjectTileLayout";
 import AboutMe from "../components/AboutMe";
 import TitleBar from "../components/TitleBar";
 import projectData from "../data/projectData";
+// This is the main home page of the portfolio application.
+// It uses the data from projectData.js to render a list of project tiles.
 export default function HomePage() {
   return (
     <>
@@ -18,6 +20,8 @@ export default function HomePage() {
               description={project.description}
               image={project.image}
               stack={[project.stack]}
+              repository={project.repository}
+              website={project.website}
             />
           ))}
         </ProjectTileLayout>
