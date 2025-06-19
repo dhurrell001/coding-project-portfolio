@@ -1,35 +1,37 @@
 import styles from "./Education.module.css";
 import Introduction from "./Introduction";
-// This component displays a list of education entries.
+import { educationEntries } from "../../data/educationData";
+// This component displays a list of education entries stored in educationData.js.
+// Each entry includes the institution, qualification, year, and grade.
 export default function Education() {
-  const educationEntries = [
-    {
-      institution: "Open University",
-      qualification: "Access to Higher Education STEM ",
-      year: "2022 - 2023",
-      grade: "Distinction",
-    },
-    {
-      institution: "Weston College/Bristol Training Institute",
-      qualification: "Python Programming bootcamp",
-      year: "2023",
+  // const educationEntries = [
+  //   {
+  //     institution: "Open University",
+  //     qualification: "Access to Higher Education STEM ",
+  //     year: "2022 - 2023",
+  //     grade: "Distinction",
+  //   },
+  //   {
+  //     institution: "Weston College/Bristol Training Institute",
+  //     qualification: "Python Programming bootcamp",
+  //     year: "2023",
 
-      grade: "Pass",
-    },
-    {
-      institution: "Weston College",
-      qualification: "BTEC National Diploma in Computing",
-      year: "1991 - 1993",
-      grade: "Distinction",
-    },
-    {
-      institution: "Weston College",
-      qualification: "BTEC First Diploma in Business and Finance",
-      year: "1990 - 1991",
+  //     grade: "Pass",
+  //   },
+  //   {
+  //     institution: "Weston College",
+  //     qualification: "BTEC National Diploma in Computing",
+  //     year: "1991 - 1993",
+  //     grade: "Distinction",
+  //   },
+  //   {
+  //     institution: "Weston College",
+  //     qualification: "BTEC First Diploma in Business and Finance",
+  //     year: "1990 - 1991",
 
-      grade: "Merit",
-    },
-  ];
+  //     grade: "Merit",
+  //   },
+  // ];
 
   return (
     <div className={styles["education-container"]}>
