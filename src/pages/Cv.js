@@ -15,7 +15,6 @@ export default function Cv() {
         </div>
         <div className={styles["cv-container"]}>
           <Qualifications />
-          <Experience />
         </div>
       </div>
     </>
