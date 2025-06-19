@@ -1,10 +1,24 @@
 import styles from "./ProjectTileButtons.module.css";
 
-export default function ProjectTileButtons() {
+export default function ProjectTileButtons({ repository, website }) {
   return (
     <div className={styles["button-container"]}>
-      <button className={styles["tile-button"]}>Repo</button>
-      <button className={styles["tile-button"]}>View Web</button>
+      {repository && (
+        <button
+          className={styles["tile-button"]}
+          onClick={() => window.open(repository, "_blank")}
+        >
+          Repo
+        </button>
+      )}
+      {website && (
+        <button
+          className={styles["tile-button"]}
+          onClick={() => window.open(website, "_blank")}
+        >
+          Website
+        </button>
+      )}
     </div>
   );
 }

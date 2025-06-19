@@ -3,7 +3,14 @@ import ProjectTileButtons from "./ProjectTileButtons";
 
 // This component  a project tile that displays a project title,
 //  description, link to github repo, and an image.
-export default function ProjectTile({ title, description, stack, image }) {
+export default function ProjectTile({
+  title,
+  description,
+  stack,
+  image,
+  repository,
+  website,
+}) {
   return (
     <div className={styles["tile-container"]}>
       <img src={image} alt="Project Thumbnail" />
@@ -11,7 +18,7 @@ export default function ProjectTile({ title, description, stack, image }) {
       <p>{description}</p>
       <p>Stack: {stack}</p>
       <div className={styles["buttons-container"]}>
-        <ProjectTileButtons />
+        <ProjectTileButtons repository={repository} website={website} />
       </div>
     </div>
   );
